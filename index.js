@@ -14,9 +14,9 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLin(katzDeliLine) {
-  if(katzDeliLine.length ===0) {
-    return ;
+  if(katzDeliLine.length === 0) {
+    return "The line is currently empty.";
   } else {
-    return "The line is currently: 1. Ada, 2. Grace";
+    return `The line is currently: 1. Ada, 2. Grace`;
   }
 }
