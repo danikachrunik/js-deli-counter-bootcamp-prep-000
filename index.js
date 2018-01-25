@@ -1,3 +1,3 @@
-function takeANumber(numPeople, katzDeliLine, name) {
-  return 
+function takeANumber(katzDeliLine, name) {
+  return indexOf(katzDeliLine.name);
 }
